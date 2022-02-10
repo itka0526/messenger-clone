@@ -1,0 +1,91 @@
+.modal-wrapper {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+
+    height: 50vh;
+    width: 50vw;
+}
+
+.details-modal {
+    background: #fff;
+    border-radius: 0.5em;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    left: 50%;
+    max-width: 90%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 30em;
+    text-align: left;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.details-modal .details-modal-close {
+    align-items: center;
+    color: #111827;
+    display: flex;
+    height: 4.5em;
+    justify-content: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 4.5em;
+}
+.details-modal .details-modal-close svg {
+    display: block;
+}
+
+.details-modal .details-modal-content {
+    padding: 2em;
+    pointer-events: all;
+    overflow: auto;
+}
+
+.details-modal .details-modal-content h1 {
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.room-label-input {
+    display: flex;
+    flex-direction: column;
+}
+
+.room-label-input > h5 {
+    color: #4f5660;
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 12px;
+    font-family: inherit;
+    padding-left: 45px;
+}
+.room-label-input > input {
+    text-align: center;
+    align-self: center;
+    height: 25px;
+    width: 75%;
+    margin-bottom: 30px;
+}
+
+.create-button {
+    display: flex;
+    justify-content: center;
+}
+.create-button > button {
+    border-width: 1px;
+    border-color: #9b9b9b;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    padding: 5px 24px 5px 24px;
+}
